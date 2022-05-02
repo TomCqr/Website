@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+/* CSS Variable */
+
+:root {
+    --primary: rgb(221, 142, 77);
+    --dark: #333;
+    --light: rgb(146, 122, 57);
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    --border: rgb(116 116 116) 
+}
+
+.wrapper {
+    display: grid;
+}
+
+.images{
+    max-width: 100%;
+    float: left;
+    background-color: var(--primary);
+    text-align: center ;
+    border-color: var(--primary);
+    border-width: 50px;
+}    
+
+html{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--dark);
+}
+
+body {
+    background-image: url('/images/table.jpg');
+    background-repeat: no-repeat;
+    background-image: cover;
+    background-color: #683E2E;
+    background-size:100% 150%;
+    background-position: right;
+    
+}
+
+.main-nav ul {
+    display: grid;
+    gap: 30px;
+    padding: 20;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.main-nav a{
+    display: block;
+    text-decoration: none;
+    background-color: #ffbb00;
+    padding: 1rem;
+    text-align: center;
+    font-weight: 700;
+    text-emphasis: 100%;
+    color: var(--dark);
+    font-size: 1.1rem;
+    box-shadow: var(--shadow);
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--primary);
+    border-radius: 0.8rem;
+}
+
+.main-nav a:hover {   
+    background-color: #dda60d;
+}
+
+.title{
+    text-align: center;
+    color: rgb(58, 43, 25);
+    border: #333;
+    background-color: #ffbb0070;
+}
+
+
+
+.text{
+ color: rgb(41, 41, 41);
+ font-size: large;
+ line-height: 40px;
+ font-family:sans-serif;
+ background-color: #ffbb0070; 
+text-align: center;
+}
+
+body {
+    background: #ccc;
+    margin: 20px 20px;
+    line-height: 1.4em;
+}
+
+.image{
+    margin-top: 160px;
+    margin-left: 150px;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 3fr 1fr;
+    grid-template-areas: "grid-head grid-head grid-head" "grid-main grid-main grid-main" "grid-main grid-main grid-main" "grid-footer grid-footer grid-footer";
+    height: 100vh;
+    margin: 1em;    
+}
+
+section.grid-head {
+    grid-area: grid-head;
+    background: #ccc;
+    border-radius: 25px 25px 0px 0px;
+}
+
+section.grid-main {
+    grid-area: grid-main;
+    background-image: url('/images/table.jpg');
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+
+section.grid-footer {
+    grid-area: grid-footer;
+    background: #ccc;
+}   
+
+.contact {
+    align-items: center;
+    margin: 100px;
+    background-color: #ffffff86;
+    padding: 100px;
+    text-align: center;
+    font-size: larger;
+}
+
+.translate-nav a{
+    display: block;
+    text-decoration: none;
+    background-color: #ffbb00;
+    padding: 1rem;
+    text-align: center;
+    font-weight: 700;
+    color: var(--dark);
+    font-size: 1.1rem;
+    box-shadow: var(--shadow);
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--primary);
+    border-radius: 0.8rem;
+    margin-left: 550px;
+    margin-right: 550px;
+    margin-top: 5px;
+}
+
+.translate-nav a:hover {   
+    background-color: #dda60d;
+}
+

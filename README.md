@@ -1,5 +1,3 @@
-# Website 
+# Welcome to The Double Bacon Cheese Burger
 
-# Topic 
-## Double Bacon Cheese Burger
-### link to Miro website plan: https://miro.com/app/board/uXjVO-pjkpI=/
+### Miro website plan here: https://miro.com/app/board/uXjVO-pjkpI=/

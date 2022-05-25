@@ -13,14 +13,16 @@ The contact page includes information, such as email and phone number for Burger
 
  Miro website plan here: https://miro.com/app/board/uXjVO-pjkpI=/
  
- ### My Design Process\
+ ### My Design Process
  
 * Layout:
   * CSS Grid with option for multiple areas for image and text content 
   * I put the Nav at the top of the page and keept it consistent throughout the website 
 * Colour:
   * The colour on my pages are taken from the media like images and video 
-  * I chose colours that compliment the image/make them stand out 
+  * I chose colours that compliment the image and make them stand out 
 * Font/s:
-  * The fonts I chose because they look nice and are easily read
+  * The fonts I chose because they fit well with the product and are easy to read
 * Navigation (Site Map)
+  * The noav is consitent througout the pages
+  * The translate button is at the bottom of the page so it can be found easily 

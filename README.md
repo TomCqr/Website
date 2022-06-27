@@ -14,6 +14,7 @@ The contact page includes contact information, such as email and phone number fo
 
  ### [Miro website plan](https://miro.com/app/board/uXjVO-pjkpI=/)
  ### [Planning and screenshots doc](https://docs.google.com/document/d/1iZINNH23cOaqhaMLvZxVJLysgUe4ryvgDhL9TBBitlU/edit)
+ 
  ### My Design Process
  
 * Layout:
@@ -21,9 +22,10 @@ The contact page includes contact information, such as email and phone number fo
   * I put the Nav at the top of the page and keept it consistent throughout the website 
 * Colour:
   * The colour on my pages are taken from the media, images and video 
-  * I chose colours that compliment the image and make them stand out 
+  * I chose colours that compliment the images and make them stand out 
 * Font/s:
-  * The fonts I chose because they fit well with the product and are easy to read
+  * I chose these fonts because they fit well with the product and are easy to read
 * Navigation (Site Map)
-  * The nav is consitent througout the pages
+  * I used CSS grid, because it was easy to code and arrange the media how I wanted i 
+  * The nav is consitent througout the pages to make it easier to navigate
   * The translate button is at the bottom of the page so it can be found easily 
